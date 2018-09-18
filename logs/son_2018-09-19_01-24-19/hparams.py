@@ -30,7 +30,7 @@ if True:
 
 basic_params.update({
     # Model
-    'model_type': 'single', # [single, simple, deepvoice]
+    'model_type': 'deepvoice', # [single, simple, deepvoice]
     'speaker_embedding_size': f(16),
 
     'embedding_size': f(256),
